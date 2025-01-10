@@ -135,7 +135,7 @@ def main():
 
     # Step 5: Test the tokenizer
     test_tokenizer(tokenizer, "महाराष्ट्र हे भारताच्या पश्चिम भागातील एक राज्य आहे.")
-    test_tokenizer(tokenizer, "माझे नाव नरेंद्र कालेकर आहे.")
+    test_tokenizer(tokenizer, "माझे नाव भूमेंद्र बिसेन आहे.")
     test_tokenizer(tokenizer, "मुख्यमंत्री देवेंद्र फडणवीसांचा राज्यातील सर्व प्रशासकीय अधिकाऱ्यांसाठी सात कलमी कृती कार्यक्रम.")
     test_tokenizer(tokenizer, "स्टीव्ह जॉब्स यांच्या पत्नी महाकुंभात सहभागी होणार; संन्यासी आयुष्य जगणार.")
 
