@@ -62,7 +62,7 @@ The app will launch in your default web browser. You can enter Marathi text to s
 
 ```
 
-(venv) narendra.kalekar@MAC-KJF4T0J3JR marathi-tokenizer-bpe % python3 marathi_tokenizer.py
+(venv) bhumendra.bisen@WIN-KJF4T0J300 marathi-tokenizer-bpe % python3 marathi_tokenizer.py
 Dataset already exists at mr.txt.
 Corpus cleaned and saved to cleaned_mr.txt.
 Loading corpus from cleaned_mr.txt...
@@ -92,7 +92,7 @@ Encoded Ids  : [206, 313, 484, 3104, 497, 123, 403, 1783, 421, 365, 2604, 196, 2
 Tokens       : ['स्', 'टी', 'व्ह', 'जॉ', 'ब्', 'स', 'यांच्या', 'पत्नी', 'महा', 'कु', 'ंभ', 'ात', 'सहभागी', 'होणार', 'सं', 'न्या', 'सी', 'आयुष्य', 'जग', 'णार']
 --------------------------------------------------
 Compression Ratio: 4.06
-(venv) bhumendra.bisen@ marathi-tokenizer-bpe % 
+(venv) bhumendra.bisen@WIN-KJF4T0J300 marathi-tokenizer-bpe % 
 
 ```
 
