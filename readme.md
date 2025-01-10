@@ -1,7 +1,7 @@
 # Marathi BPE Tokenizer
 
 ## Project Overview
-The **Marathi BPE Tokenizer** is a custom-built tokenizer for the Marathi language using Byte Pair Encoding (BPE). The project includes a tokenizer training script (`marathi_tokenizer.py`) and a user-friendly web interface built with Gradio (`app.py`). The interface allows users to input Marathi text and see the tokenized output, as well as encoded IDs.
+The **Marathi BPE Text Tokenizer** is a custom-built tokenizer for the Marathi language using Byte Pair Encoding (BPE). The project includes a tokenizer training script (`marathi_tokenizer.py`) and a user-friendly web interface built with Gradio (`app.py`). The interface allows users to input Marathi text and see the tokenized output, as well as encoded IDs.
 
 ---
 
@@ -77,9 +77,9 @@ Encoded Ids  : [708, 193, 2766, 2449, 2928, 303, 627, 199]
 Tokens       : ['महाराष्ट्र', 'हे', 'भारताच्या', 'पश्चिम', 'भागातील', 'एक', 'राज्य', 'आहे']
 --------------------------------------------------
 --------------------------------------------------
-Input Text   : माझे नाव नरेंद्र कालेकर आहे.
+Input Text   : माझे नाव भूमेंद्र बिसेन आहे.
 Encoded Ids  : [2913, 701, 1631, 194, 198, 203, 199]
-Tokens       : ['माझे', 'नाव', 'नरेंद्र', 'का', 'ले', 'कर', 'आहे']
+Tokens       : ['माझे', 'नाव', 'भूमेंद्र', 'बि', 'से', 'न', 'आहे']
 --------------------------------------------------
 --------------------------------------------------
 Input Text   : मुख्यमंत्री देवेंद्र फडणवीसांचा राज्यातील सर्व प्रशासकीय अधिकाऱ्यांसाठी सात कलमी कृती कार्यक्रम.
@@ -92,7 +92,7 @@ Encoded Ids  : [206, 313, 484, 3104, 497, 123, 403, 1783, 421, 365, 2604, 196, 2
 Tokens       : ['स्', 'टी', 'व्ह', 'जॉ', 'ब्', 'स', 'यांच्या', 'पत्नी', 'महा', 'कु', 'ंभ', 'ात', 'सहभागी', 'होणार', 'सं', 'न्या', 'सी', 'आयुष्य', 'जग', 'णार']
 --------------------------------------------------
 Compression Ratio: 4.06
-(venv) narendra.kalekar@MAC-KJF4T0J3JR marathi-tokenizer-bpe % 
+(venv) bhumendra.bisen@ marathi-tokenizer-bpe % 
 
 ```
 
